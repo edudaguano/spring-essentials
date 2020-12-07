@@ -14,6 +14,10 @@ import javax.persistence.Table;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter@Setter
 @Entity
 @EnableAutoConfiguration
 @Table(name="ESTADO")
